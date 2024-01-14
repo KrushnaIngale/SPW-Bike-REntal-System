@@ -49,7 +49,7 @@ class BikeRentalGUI:
         root.title("Bike Rental System")
         root.minsize(width="400", height="300")
         root.maxsize(width="400", height="300")
-        root.iconbitmap("bike.ico")
+        #root.iconbitmap("bike.ico")
 
         global label_available_bikes
         label_available_bikes = tk.Label(root, text=f"Available Bikes: {sum(self.rental_system.bikes.values())}")
